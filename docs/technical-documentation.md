@@ -17,21 +17,17 @@ The project is a **front-end web application** built entirely with **vanilla HTM
 
 ### File Structure
 
-```
-
 assignment-3/
-├── index.html               \# Main webpage
-├── css/
-│   └── styles.css           \# Styles and themes
-├── js/
-│   └── script.js            \# Core JavaScript logic
-├── assets/
-│   └── images/              \# Icons and visuals
-└── docs/
-├── ai-usage-report.md
-└── technical-documentation.md
-
-```
+├── **index.html** # Main webpage
+├── **css/**
+│   └── styles.css           # Styles and themes
+├── **js/**
+│   └── script.js            # Core JavaScript logic
+├── **assets/**
+│   └── images/              # Icons and visuals
+└── **docs/**
+    ├── ai-usage-report.md
+    └── technical-documentation.md
 
 ---
 
