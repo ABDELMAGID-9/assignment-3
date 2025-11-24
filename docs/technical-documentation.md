@@ -1,7 +1,5 @@
 
-This is the document, correctly formatted and cleaned up using **Markdown** syntax.
 
-```markdown
 # 🧾 Technical Documentation – Assignment 3
 
 ## 🧠 Overview
