@@ -13,21 +13,6 @@ The goal is to document both **how** the application works and **why** specific 
 
 The project is a **front-end web application** built entirely with **vanilla HTML, CSS, and JavaScript** — no frameworks or libraries were used.
 
-### File Structure
-
-assignment-3/
-├── **index.html** # Main webpage
-├── **css/**
-│   └── styles.css           # Styles and themes
-├── **js/**
-│   └── script.js            # Core JavaScript logic
-├── **assets/**
-│   └── images/              # Icons and visuals
-└── **docs/**
-    ├── ai-usage-report.md
-    └── technical-documentation.md
-
----
 
 ## 🧩 Core Functional Components
 
