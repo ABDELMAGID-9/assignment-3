@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Advanced Portfolio – Assignment 3</title>
 
+  <!-- Modern font & favicon -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>My Portfolio <span id="greetingName"></span></h1>
+    <button id="themeToggle" class="theme-toggle" title="Toggle dark/light mode">🌙</button>
+  </header>
+
+  <main>
+    <!-- GITHUB API SECTION -->
+    <section class="card">
+      <h2>My Latest GitHub Repositories</h2>
+      <p>Enter a GitHub username to fetch public repositories.</p>
+      <div class="controls">
+        <input id="ghUser" type="text" placeholder="e.g. ABDELMAGID-9" />
+        <button id="fetchBtn">Fetch Repos</button>
+        <button id="toggleProjectsBtn" title="Show or hide fetched projects">👁 Hide Projects</button>
+      </div>
+      <div id="errorBanner" class="error" hidden></div>
+      <ul id="repoList" class="repo-list"></ul>
+    </section>
+
+    <!-- CONTACT FORM -->
+    <section class="card">
+      <h2>Contact Me</h2>
+      <form id="contactForm" novalidate>
+        <label>Name <input id="cName" type="text" required /></label>
+        <label>Email <input id="cEmail" type="email" required placeholder="you@gmail.com" /></label>
+        <label>Message <textarea id="cMessage" rows="4" minlength="10" required></textarea></label>
+        <button type="submit">Send</button>
+        <p id="contactMsg" class="muted"></p>
+      </form>
+    </section>
+
+    <!-- TIMER / STATE -->
+    <section class="card">
+      <h2>Session Timer</h2>
+      <p>You have been on this page for <strong id="timer">0</strong> seconds.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 My Portfolio | Built for Assignment 3 – Designed with ❤️ by Abdelmagid</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
